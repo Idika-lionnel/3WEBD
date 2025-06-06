@@ -1,16 +1,28 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import SearchBar from './components/SearchBar.jsx';
-import MainPage from './pages/MainPage.jsx';
+import SearchBar from './components/SearchBar';
+import MainPage from './pages/MainPage';
+import SearchResults from './pages/SearchResults';
 
 function App() {
   return (
-    <div>
+    <div
+      style={{
+        minHeight: '100vh',
+        width: '100%',
+        backgroundColor: '#1e1e1e',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center' // centrer horizontalement tout le contenu
+      }}
+    >
       <SearchBar />
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        {/* Ajoute d'autres routes ici plus tard */}
-      </Routes>
+      <div style={{ width: '100%' }}>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/search" element={<SearchResults />} />
+        </Routes>
+      </div>
     </div>
   );
 }
