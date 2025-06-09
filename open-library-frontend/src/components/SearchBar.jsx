@@ -5,14 +5,15 @@ function SearchBar() {
   const [query, setQuery] = useState('');
   const navigate = useNavigate();
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    if (query.trim()) {
-      navigate(`/search?q=${encodeURIComponent(query)}`);
-    }
-  };
+    const handleSearch = (e) => {
+        e.preventDefault();
+        const trimmed = query.trim();
+        if (trimmed.length > 0) {
+            navigate(`/search?q=${encodeURIComponent(trimmed)}`);
+        }
+    };
 
-  return (
+    return (
     <form
       onSubmit={handleSearch}
       style={{
