@@ -38,5 +38,5 @@ npm run test
 
 ## Auteurs
 
-- ANGOUNE UDUMA Idika Lionnel : recherche rapide, page d’accueil, détail d’un livre + tests  
-- BURLURAUX Jeffrey : recherche avancée, affichage avancé, tests complémentaires
+- ANGOUNE UDUMA Idika Lionnel  
+- BURLURAUX Jeffrey 
