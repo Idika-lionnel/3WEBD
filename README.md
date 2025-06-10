@@ -36,19 +36,7 @@ npm run test
 
 ## Auteurs
 
-Lionnel Idika
-	•	Recherche rapide (Quick Search)
-	•	Page d’accueil (Main Page)
-	•	Détail d’un livre (Book Detail)
-	•	Tests unitaires (Quick Search, Main Page)
-	•	Architecture initiale (routeur, composants globaux)
-	•	UI/UX global (design + responsive)
-	•	README, packaging et livraison finale
+## Auteurs
 
-Jeffrey BURLURAUX
-	•	Recherche avancée (Advanced Search)
-	•	Page de détail (Item Page)
-	•	Intégration Wikipedia (infos + image)
-	•	Architecture (state local/global, composants dynamiques)
-	•	Tests complémentaires
-	•	UI/UX des pages internes (design + responsive)
+- ANGOUNE UDUMA Idika Lionnel : recherche rapide, page d’accueil, détail d’un livre + tests  
+- BURLURAUX Jeffrey : recherche avancée, affichage avancé, tests complémentaires
