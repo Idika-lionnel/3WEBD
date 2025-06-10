@@ -32,7 +32,7 @@ npm run test
 - React Router
 - Axios
 - Vitest + @testing-library/react
-- TailwindCSS (si utilisé)
+- TailwindCSS 
 
 ## Auteurs
 
