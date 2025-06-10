@@ -14,7 +14,7 @@ Elle inclut une recherche rapide, une recherche avancée, une page d’accueil a
 ## Installation
 
 ```bash
-git clone https://github.com/votre-repo/open-library-frontend.git
+git clone https://github.com/Idika-lionnel/3WEBD.git
 cd open-library-frontend
 npm install
 npm run dev
